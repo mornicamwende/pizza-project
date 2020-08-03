@@ -1,0 +1,22 @@
+/* main section */
+.main{
+    background-image: url("../images/pizza5.jpg");
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#nav{
+    display: inline-flex;
+    font-style:italic;
+}
+h2{
+text-align: center;
+}
+
