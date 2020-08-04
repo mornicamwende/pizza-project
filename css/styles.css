@@ -34,5 +34,13 @@ text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: bisque;
 }
+footer{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 5px;
+    background-color: rgb(235, 148, 43);
+    padding-bottom: 20px;
+}
 
 
