@@ -46,6 +46,8 @@ footer{
 header{
     background-color: rgb(224, 168, 99);
     text-align: right;
+    padding-top: 20px;
+    font-size: medium;
 }
 
 
