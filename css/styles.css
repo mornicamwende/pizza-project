@@ -19,5 +19,15 @@
 h2{
 text-align: center;
 }
+.form{    
+    background-image: url("../images/car7.jpeg"), linear-gradient(#181618,#140202);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 300%;
+    color: beige;
+
+}
 
 

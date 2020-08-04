@@ -82,41 +82,104 @@
                <div class="orders">
                    <h2>Order your favourite here!</h2>
                    <p>Oder your pizza here and we will deliver it to your doorstep</p>
-                   <div class="form">
-                       <form>
-                           <label for="flavor">Select Your Flavor</label>
-                           <select>
-                            <option value="Chicken Tikka">Chicken Tikka</option>
-                            <option value="PeriPeri Pizza">PeriPeri Pizza</option>
-                            <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
-                            <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-                            <option value="Sunchoke Pizza">Sunchoke Pizza</option>
-                            <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                 <div class="form overlay 
+                 ter">
+                 <div class="form-group row">
+                  <div class="col-sm-8">                    
+                       <form class="col-sm-6 offset-sm-3 text-center">
+                           <label for="flavor">Select Your Flavor</label> <br>
+                           <select class="custom-select-lg " id="flavor">
+                            <option label="Chicken Tikka" value="400">Chicken Tikka</option>
+                            <option label="PeriPeri Pizza" value="500">PeriPeri Pizza</option>
+                            <option label="Raspberry Dessert Pizza" value="600">Raspberry Dessert Pizza</option>
+                            <option label="Chicken Alfredo Pizza" value="700">Chicken Alfredo Pizza</option>
+                            <option label="Sunchoke Pizza" value="800">Sunchoke Pizza</option>
+                            <option label="Buffalo Chicken Sticks" value="900">Buffalo Chicken Sticks</option>
                            </select>
+
+                           <label for="size">Select Your Desired Size</label> <br>
+                           <select class="custom-select-lg " id="size">
+                            <option label="large" value="1200">Large -- sh. 1200</option>
+                            <option label="medium" value="850">Medium -- sh. 850</option>
+                            <option label="small" value="600">Small -- sh. 600</option>
+                           </select> <br>
+
+                           <label for="crust">Choose Your Favorite Crust</label> <br>
+                           <select class="custom-select-lg " id="crust">
+                            <option label="Crispy" value="200">Crispy -- sh. 200</option>
+                            <option label="Stuffed" value="150">Stuffed -- sh. 150</option>
+                            <option label="Gluten-free" value="180">Gluten-free-- sh. 180</option>
+                            <option label="Sicilian style" value="300">Sicilian Style -- sh. 300</option>
+                            <option label="thin crust" value="100">Thin Crust -- sh. 100</option>
+                            <option label="pizza bagels" value="500">pizza Bagels ---sh. 500</option>
+                           </select>
+
+                           <label for="Toppings">Select Your Preffered topping @sh.150</label> <br>
+                           <select class="custom-select-lg " id=topping> 
+                           <option label="pepperoni" value="150">Pepperoni</option>
+                           <option label="onions" value="150">Onions</option>
+                           <option label="Sausage" value="150">Sausage</option>
+                           <option label="pineapple" value="150">Pineapple</option>
+                           <option label="extra cheese" value="150">Extra Cheese</option>
+                           <option label="mushrooms" value="150">Mushrooms</option>
+                           </select> <br>
+
+                           <label for="number">Number of Pizza's</label> <br>
+                           <input type="number" class="form-control custom-select-lg " id="number" placeholder="Number of pizzas" min="1" required> <br>
+                           <label for="delivery">would you like your pizza delivered</label>
+                           <select class="custom-select-lg" id="delivery"> <br>
+                            <option label="yes" value="500" id="dyes">yes</option>
+                            <option label="no" value="0" id="dno">no</option>
+                          </select> <br>
                            
-                           <label for="size">Select Your Desired Size</label>
-                           <select>
-                            <option selected value="0">Select size here</option>
-                            <option value="large">Large -- sh. 1200</option>
-                            <option value="medium">Medium -- sh. 850</option>
-                            <option value="small">Small -- sh. 600</option>
-                           </select>
-
-
-
-                       </form>
-
-
-
-
-
-
-
-
+                           
+                        </form>
+                        <button type="submit" class="btn-orange continue" id="continue">Continue</button>
+                   </div>
+                 </div>
+                </div>
                </div>
+               <!-- <div class="summary">
+                   <h1>Order sum up</h1>
+                   <p>Hello there, your order is as follows:</p>
+                   <ol id="list">
+                   </ol>
+
+                   <div class="customer">
+                      <form>
+                        <input type="text" placeholder="Enter your Name:">
+                        <input type="text" placeholder="Enter your phone number: ">
+                        <input type="text" placeholder="Enter the location: ">
+                        <button class="submit">Make Delivery</button> 
+                      </form> 
+                   </div>
+                   <div class="devs">
+                    <button class='deliver'>Make Delivery</button>
+                    <button class='delivernot'>Pick Up</button>
+                   </div> -->
 
 
+
+
+
+              
+
+               <!-- contact us -->
+               <div class="contact us">
+                   <h2>CONTACT US</h2>
+              <p>You can reach out to us fo any questions comments !!feel free</p>
+              <form id="form1">
+                <div class="form-group form-inline">
+                  <input type="text" class="form-control" placeholder = "Name...." id="n" size="25">
+                  <input type="email" class="form-control"  placeholder = "Email...." id="m" size="25">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...." ></textarea>
+                </div>
+                <button type="submit" class="form1" id="sub" onclick="response();">Submit</button>
+              </form>
                </div>
+   
        
 
 
@@ -138,8 +201,6 @@
 
 
 
-
-
-   </div> 
+     </div>
 </body>
 </html>
